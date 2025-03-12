@@ -1,4 +1,4 @@
-function matemaatilisedArvutused(a, b) {
+export function matemaatilisedArvutused(a, b) {
   let summa = a + b;
   let vahe = a - a;
   let jagatis = Math.floor(a / b);
